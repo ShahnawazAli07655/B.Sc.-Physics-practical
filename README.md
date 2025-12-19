@@ -16,7 +16,26 @@ students understand physical systems through numerical computation.
 **File:** `Coulomb potential.sci`
 
 ### Aim  
-To study the Coulomb potential using numerical methods.
+To solve the s-wave Schrödinger equation for the ground state and the first excited
+state of the hydrogen atom
+
+\[
+\frac{d^2u}{dr^2} = A(r)u(r), \quad
+A(r) = \frac{2m}{\hbar^2}[V(r) - E]
+\]
+
+where
+
+\[
+V(r) = -\frac{e^2}{r}
+\]
+
+and obtain the energy eigenvalues and plot the corresponding wave functions.
+Remember that the ground state energy of the hydrogen atom is −13.6 eV.
+Take  
+\( e = 3.795 \, (\text{eV Å}) \),  
+\( \hbar c = 1973 \, (\text{eV Å}) \),  
+\( m = 0.511 \times 10^6 \, \text{eV}/c^2 \).
 
 ### Theory  
 The Coulomb potential describes the interaction between two charged particles.
